@@ -20,8 +20,8 @@ visit : https://www.kaggle.com/dalpozz/creditcardfraud
                       </tr>
                       
                       <tr>
-                          <td>|       |</td>
-                          <td>        |</td>
+                          <td>|   --  |</td>
+                          <td>    --  |</td>
                       </tr>
                   </table>
             </li>
