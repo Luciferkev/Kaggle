@@ -11,3 +11,10 @@ visit : https://www.kaggle.com/dalpozz/creditcardfraud
 
 
 <b>To predict any value from the dataset:</b>
+      <ul>
+            <li>inputY is hot-mapped as normal/fraud transactions:
+                  | Fraud | Normal |
+                  |       |        |
+            </li>
+            
+      </ul>
