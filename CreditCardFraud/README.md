@@ -13,7 +13,7 @@ visit : https://www.kaggle.com/dalpozz/creditcardfraud
 <b>To predict any value from the dataset:</b>
       <ul>
             <li>inputY is hot-mapped as normal/fraud transactions:</li><br/>
-                  <i>| 0 | 1 |(Normal Transaction) || | 1 | 0 |(Fraud Transaction)</i><br/>
+                  <i>--| 0 | 1 |(Normal Transaction) || | 1 | 0 |(Fraud Transaction)</i><br/>
                   <table>
                       <tr>
                           <td> Fraud </td>
@@ -24,4 +24,6 @@ visit : https://www.kaggle.com/dalpozz/creditcardfraud
                           <td>   0-1  </td>
                       </tr>
                   </table>
+             <li></li>
       </ul>
+      
