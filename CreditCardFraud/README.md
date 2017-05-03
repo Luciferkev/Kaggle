@@ -9,3 +9,5 @@ visit : https://www.kaggle.com/dalpozz/creditcardfraud
         <li>Tensorflow Graph Development</li>
       </ul>
 
+
+<b>To predict any value from the dataset:</b>
