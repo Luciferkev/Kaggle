@@ -74,7 +74,7 @@ inputX_test = X_test.as_matrix()[split:]
 inputY_test = y_test.as_matrix()[split:]
 
 #parameters
-learning_rate = 0.005
+learning_rate = 0.005 
 training_epoch = 10
 batch_size = 2048
 display_step = 1
