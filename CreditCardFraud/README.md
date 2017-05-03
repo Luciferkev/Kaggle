@@ -29,7 +29,7 @@ visit : https://www.kaggle.com/dalpozz/creditcardfraud
       
 <b>Understanding the parameters(Parameters are flexible):</b>
       <ul>
-            <li>learning_rate : It can be changed to train the algorithm faster. Limit it to 0.1(Will not work for more than 0.1)</li>
+            <li>learning_rate : It can be changed to train the algorithm faster.Must Limit it to 0.1(Will not work for more than 0.1)</li>
             <li>training_epoch : training_epoch decides the number of times you want the algorithm to train itself.</li>
             <li>batch_size : batch size decidesthe chuck of code used in the graph for batches.</li>
             <li>display_step : it decides the times you want to display the log.</li>
