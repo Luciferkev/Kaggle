@@ -18,6 +18,11 @@ visit : https://www.kaggle.com/dalpozz/creditcardfraud
                           <td>| Fraud |</td>
                           <td> Normal |</td>
                       </tr>
+                      
+                      <tr>
+                          <td>|       |</td>
+                          <td>        |</td>
+                      </tr>
                   </table>
             </li>
       </ul>
