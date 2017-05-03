@@ -99,8 +99,6 @@ optimizer = tf.train.AdamOptimizer(learning_rate).minimize(cost)
 #initializing variables
 init = tf.global_variables_initializer()
 
-print inputX[1000:1001]
-
 #launch the graph
 with tf.Session() as sess:
     sess.run(init)
