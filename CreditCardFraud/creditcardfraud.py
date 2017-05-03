@@ -125,15 +125,15 @@ with tf.Session() as sess:
         if (epoch+1) % display_step == 0:
             train_accuracy, newCost = sess.run([accuracy, cost], feed_dict={x: inputX_test,y: inputY_test})
             print "epoch:",epoch+1,"train_accuracy:",train_accuracy,"cost:",newCost,"valid_accuracy:",sess.run([accuracy],feed_dict={x:inputX_valid,y:inputY_valid})
-            # output = sess.run(pred,feed_dict={x:inputX[1000:1001]})
-            # final_output_array.append(output)
+            output = sess.run(pred,feed_dict={x:inputX[1000:1001]})
+            final_output_array.append(output)
             print
 
     final_output = sum(final_output_array)/epoch
-    print final_output
+    # print final_output
     # print
     # print final_output[:,:1]
     # print final_output[:,:2]
-    # output = 'fraud' if final_output[:,:1] > final_output[:,1:2] else 'normal'
-    # print output
+    output = 'fraud' if final_output[:,:1] > final_output[:,1:2] else 'normal'
+    print output
     print 'optimization finished.'
