@@ -4,8 +4,8 @@ visit : https://www.kaggle.com/dalpozz/creditcardfraud
 
 <b><i>Flow of the algorithm:</i></b>
       <ul>
-        <li>a</li>
-        <li>b</li>
-        <li>c</li>
+        <li>Statistical Analysis</li>
+        <li>Features Analysis</li>
+        <li>Tensorflow Graph Development</li>
       </ul>
 
