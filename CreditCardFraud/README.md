@@ -24,6 +24,6 @@ visit : https://www.kaggle.com/dalpozz/creditcardfraud
                           <td>   0-1  </td>
                       </tr>
                   </table>
-             <li></li>
+             <li>At the display log(line 122-126), you can change the output value{ output tensorflow variable } as you wish to    predict output for any index number.*warning:* This will not work with predicting multiple values together due to singleton logic at line 135.</li>
       </ul>
       
