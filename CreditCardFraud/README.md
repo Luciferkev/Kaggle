@@ -34,3 +34,12 @@ visit : https://www.kaggle.com/dalpozz/creditcardfraud
             <li>batch_size : batch size decides the chunk of data used in the graph for batches.</li>
             <li>display_step : it's a step counter for the display log.</li>
       </ul>
+      
+<b> Dependencies :</b>
+      <ul>
+            <li>Numpy</li>
+            <li>Pandas</i>
+            <li>Tensorflow</li>
+            <li>Seaborn</li>
+            <li>scikit-learn</li>
+      </ul>
